@@ -3,7 +3,9 @@ require('dotenv').config();
  
 const uri = process.env.MONGODB_URL;
 const options = { 
-  useNewUrlParser: true, 
+  useNewUrlParser: true,  
+ useUnifiedTopology: true, 
+
 
 }; 
  
