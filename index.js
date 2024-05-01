@@ -18,7 +18,7 @@ const Useri = require('./models/Useri');
 
 
 // Middleware
-app.use(cors({ origin: 'https://cvms-client.vercel.app', methods: ['GET', 'POST', 'PUT', 'DELETE'] }));
+app.use(cors({ origin: 'https://cvms-client.vercel.app/', methods: ['GET', 'POST', 'PUT', 'DELETE'] }));
 app.use(express.json()); // Parse JSON bodies
 
 // Connection with DB
